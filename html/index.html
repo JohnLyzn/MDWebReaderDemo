@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="吾托帮安装与部署">
+	<meta name="description" content="提供吾托帮组件的安装和部署说明">
+	<meta name="keywords" content="吾托帮安装与部署">
+
+	<link rel="stylesheet" type="text/css" href="other/bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="container idp-float-fix idp-i-title">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3 class="pull-left" id="instructionTitle">...</h3>
+				<h4 class="pull-left" id="instructionStep">第<span>0</span>步. <span>...</span></h4>
+				<input class="pull-right" type="file"/>
+			</div>
+		</div>
+	</div>
+	<div class="container idp-i-content">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="stepDetailView" class="view">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container idp-float-fix idp-i-nav">		
+		<div class="row">
+			<div class="col-xs-6 idp-full-height">
+				<div class="progress">
+					<div id="progressIndicator" class="progress-bar progress-bar-success" role="progressbar"
+						aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-xs-3 idp-full-height text-center">
+				<span id="currentStep">0</span>/<span id="totalStep">0</span>
+			</div>
+			<div class="col-xs-3 idp-full-height">
+				<button type="button" class="btn btn-primary pull-right" onclick="nextStep()">下一步</button>
+				<button type="button" class="btn btn-primary pull-right" onclick="prevStep()">上一步</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/lib/require.js" data-main="js/index" ></script>
+</div>
+</body>
+</html>

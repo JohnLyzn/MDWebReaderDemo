@@ -1,0 +1,76 @@
+/* common common */
+* {
+	margin: 0;	
+	box-sizing: border-box;
+}
+
+.idp-full-width {
+	width: 100%;
+}
+
+.idp-full-height {
+	height: 100%;
+}
+
+.idp-scroll-region {
+	overflow: auto;
+}
+
+.idp-text-center {
+	text-align: center;
+}
+
+.idp-span-left {
+	margin-left: 35px;
+}
+
+/* component common */
+.idp-btn {
+
+}
+
+.idp-header {
+
+}
+
+.idp-body {
+
+}
+
+.idp-footer {
+
+}
+
+.idp-group {
+
+}
+
+.idp-item {
+
+}
+
+.idp-dialog {
+
+}
+
+.idp-dialog .idp-header {
+
+}
+
+.idp-dialog .idp-body {
+
+}
+
+.idp-dialog .idp-footer {
+
+}
+
+.idp-dialog .idp-btn.idp-close {
+
+}
+
+/* util common */
+.idp-float-fix {
+	z-index: 999;
+	position: fixed;
+}
